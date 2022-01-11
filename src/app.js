@@ -51,8 +51,7 @@ app.use('/products', mainRouter);
 
 
 
-
 //3) Levantamos el SERVIDOR
-app.listen(3000,() => { 
-    console.log('Servidor 3000 corriendo y escuchando bien')
+app.listen(process.env.PORT || 3000,() => { 
+    console.log('Servidor 3030 corriendo y escuchando bien')
 });
