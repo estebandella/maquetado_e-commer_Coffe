@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "nombre": "Deporte"
+    },
+    {
+        "id": 2,
+        "nombre": "Montaña"
+    },
+    {
+        "id": 3,
+        "nombre": "Ciudad"
+    },
+    {
+        "id": 4,
+        "nombre": "Noche"
+    },
+    {
+        "id": 5,
+        "nombre": "Oficina"
+    }
+]

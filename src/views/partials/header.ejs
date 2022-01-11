@@ -1,0 +1,62 @@
+<header class="header-completo">
+
+    <!-- MENU LOGO BUCADOR CARRITO -->
+    <div class="header-menu-busca-carrito">
+        <i class="fas fa-bars" id="header_menu_<%= hayvideo %>"></i>
+ 
+        <!--<a href="/" style="text-decoration:none"><h1 class="marca">MILUZ</h1></a>-->
+        <% if ( hayvideo == 'video'|| hayvideo == 'imagen') { %>
+            <a class="header_logo" href="/"><img src="/img/logoBlanco.png" width="150px"></a>
+        <% } else { %>
+            <a class="header_logo" href="/"><img src="/img/logoNegro.png" width="150px"></a>
+        <% }; %>            
+
+
+        <div class="header-busca-carrito">
+
+            <!-- LUPA BUSCAR -->
+            <i  id="header_menu_<%= hayvideo %>" class="fas fa-search"></i> 
+
+            <!-- LOGIN -->
+            <a href="/users/login"><i class="far fa-user"  id="header_menu_<%= hayvideo %>"></i> </a>
+
+            <h2 id="header_menu_<%= hayvideo %>">|</h2>
+
+            <!-- AGREGAR PRODUCTO -->
+            <a href="/products/create"><i class="fas fa-plus" id="header_menu_<%= hayvideo %>"></i> </a>
+
+            <h2 id="header_menu_<%= hayvideo %>">|</h2>
+
+            <!-- CARRITO -->
+            <a href="/products/shoppingCart"><i class="fas fa-shopping-bag" id="header_menu_<%= hayvideo %>"></i></a>
+        </div>
+    </div>
+
+    <!-- VIDEO -->
+    <% if ( hayvideo == 'video') { %>
+        <div class="contenedor_Video">
+            <video class="videoHome" autoplay loop muted>
+                <source src="/img/videoHome.mp4" type="video/mp4"> 
+            </video>
+            <div class="contenedor_texto_video">
+                <div class="texto_video"> Déjate conducir al aroma y sabor del más exquisito café</div>
+                    <a class="boton_video"  href="">COMPRAR CAFÉ</a>
+                    <a class="boton_video"  href="">HISTORIA</a>
+                </div>
+            </div>        
+        </div> 
+    <% } else if ( hayvideo == 'imagen') { %>
+        <div class="contenedor_Video">
+            <img class="videoHome" src="/img/slider-2.jpg">
+            <div class="contenedor_texto_video">
+                <h2 class="texto_video"  id="header_menu_<%= hayvideo %>">Granos</h2>
+                <p class="texto_video"  id="header_menu_<%= hayvideo %>">Experimente los granos seleccionados de primera calidad y un tostado exquisito que desafía los sentidos</p>
+            </div>        
+        </div> 
+    <% } else { %>
+        <div class="contenedor_blanco">
+
+        </div>
+    <% }; %>
+
+</header>

@@ -1,0 +1,76 @@
+[
+
+    {
+        "id": 1,
+        "nombre": "Mariano", 
+        "apellido": "Carli",
+        "direccion": "suiza 4250",
+        "e-mail": "mariano@gmail.com"
+        
+    },
+    {
+        "id": 2,
+        "nombre": "Carla", 
+        "apellido": "Romero",
+        "direccion": "patagonia 777",
+        "e-mail": "carla@gmail.com"
+    },
+    {
+        "id": 3,
+        "nombre": "Sonia", 
+        "apellido": "Galvan",
+        "direccion": "cerrito 5289",
+        "e-mail": "sonia@gmail.com"
+    },
+    {
+        "id": 4,
+        "nombre": "Patricia", 
+        "apellido": "Perez",
+        "direccion": "canada 4250",
+        "e-mail": "patricia@gmail.com"
+        
+    },
+    {
+        "id": 5,
+        "nombre": "Andrea", 
+        "apellido": "Gutierrez",
+        "direccion": "honduras 333",
+        "e-mail": "andrea@gmail.com"
+    },
+    {
+        "id": 6,
+        "nombre": "Veronica", 
+        "apellido": "Colombo",
+        "direccion": "Viena 5289",
+        "e-mail": "veronica@gmail.com"
+    },
+    {
+        "id": 7,
+        "nombre": "Angela", 
+        "apellido": "Galvan",
+        "direccion": "Camarones 5289",
+        "e-mail": "angela@gmail.com"
+    },
+    {
+        "id": 8,
+        "nombre": "Georgina", 
+        "apellido": "Perez",
+        "direccion": "canada 4250",
+        "e-mail": "georgina@gmail.com"
+        
+    },
+    {
+        "id": 9,
+        "nombre": "Bart", 
+        "apellido": "Simpsons",
+        "direccion": "pedro moran 587",
+        "e-mail": "bart@gmail.com"
+    },
+    {
+        "id": 10,
+        "nombre": "Gina", 
+        "apellido": "Biarritz",
+        "direccion": "Callejon 22",
+        "e-mail": "gina@gmail.com"
+    }
+]

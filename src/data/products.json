@@ -1,0 +1,136 @@
+[
+
+    {
+        "id": 1,
+        "nombre": "Café de Colombia Guanes", 
+        "precio": "$750.00",
+        "origen": "Colombia",
+        "grano": "Arábica",
+        "molienda": "Expresso",
+        "descripcion": "Cacao maduro, caramelo y citricos. Acidez media citrica. Cuerpo medio/bajo y persistencia delicada.",
+        "categoria": "Oficina",
+        "imagen": "meli_co-09-min__32372_zoom.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Café Rastro", 
+        "precio": "$800.00",
+        "origen": "Colombia",
+        "grano": "Robusa",
+        "molienda": "Chemex",
+        "descripcion": "Tostado con lineas de caramelo y chocolate, suave pero intenso. Ideal para momentos de retrospectiva",
+        "categoria": "Oficina",
+        "imagen": "FOR_SHOPIFY_CUPS_03_1024x1024.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Al-Durrar - Caja de 8 micro lotes - 8 oz", 
+        "precio": "650.00",
+        "origen": "Puerto de Mockha",
+        "grano": "Robusa",
+        "molienda": "Chemex",
+        "descripcion": "Cacao maduro, caramelo y citricos. Acidez media citrica. Cuerpo medio/bajo y persistencia delicada.",
+        "categoria": "Oficina",
+        "imagen": "FOR_SHOPIFY_DURRAR_01_1024x1024.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Al-Wadi - Caja de 8 micro lotes - 4 oz", 
+        "precio": "950.00",
+        "origen": "Puerto de Mockha",
+        "grano": "Kopi Luwak",
+        "molienda": "Prensa Francesa",
+        "descripcion": "La región de Al Wadi en Yemen es vasta y extremadamente difícil de obtener café. Pero, el esfuerzo excepcional vale la pena por este café excepcional. Este varietal cuenta con notas de chocolate negro intenso, caramelo seco y fruta exuberante. Cada taza se siente como un placer.",
+        "categoria": "Oficina",
+        "imagen": "FOR_SHOPIFY_WADI_01_1024x1024.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Relief Blend | 5 oz", 
+        "precio": "980.00",
+        "origen": "Puerto de Mockha",
+        "grano": "Robusta",
+        "molienda": "Expresso",
+        "descripcion": "La mezcla de alivio de POM proviene directamente de nuestros agricultores de confianza en Yemen, con notas decadentes de melaza dulce, caramelo sedoso y ricos brownies de chocolate. Este 5 oz. La bolsa cuenta con nuestra mezcla de alivio POM de cantidad limitada que se ofrece con un descuento significativo. Fácilmente  produce  10-12 tazas. ",
+        "categoria": "Oficina",
+        "imagen": "giftbox_1200x.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Mezcla de Alivio | 5 libras", 
+        "precio": "1080.00",
+        "origen": "Puerto de Mockha",
+        "grano": "Robusta",
+        "molienda": "Cafetera",
+        "descripcion": "Hay una sensación de pavor cuando te das cuenta de que solo tienes suficiente café para una última taza. Con esta bolsa de café de 5 libras, estará abastecido durante bastante tiempo. Esta bolsa rinde alrededor de 180 tazas de café para que disfrutes",
+        "categoria": "Oficina",
+        "imagen": "PoM_Bundles_Combinations_B-03_1024x1024.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Mezcla de Alivio Romano | 5 libras", 
+        "precio": "1080.00",
+        "origen": "Puerto de Mockha",
+        "grano": "Robusta",
+        "molienda": "Cafetera",
+        "descripcion": "Hay una sensación de pavor cuando te das cuenta de que solo tienes suficiente café para una última taza. Con esta bolsa de café de 5 libras, estará abastecido durante bastante tiempo. Esta bolsa rinde alrededor de 180 tazas de café para que disfrutes",
+        "categoria": "Oficina",
+        "imagen": "PoM_Bundles_Combinations-18-min_1024x1024.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Cumanao Café 500gr", 
+        "precio": "750.00",
+        "origen": "Brasil",
+        "grano": "Arábica",
+        "molienda": "Cafetera",
+        "descripcion": "Es la mezcal mas atractiva para comenzar el dia con energia y el crear el mejor momento",
+        "categoria": "Oficina",
+        "imagen": "PoM_Bundles_Combinations-19-min_1024x1024_ba908695-8fde-4151-af26-5cdcd759427c_1024x1024.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Ronco Café", 
+        "precio": "450.00",
+        "origen": "Costa Rica",
+        "grano": "Arábica",
+        "molienda": "Cafetera",
+        "descripcion": "Es la mezcal mas atractiva para comenzar el dia con energia y el crear el mejor momento",
+        "categoria": "Oficina",
+        "imagen": "PoM_GiftCard_2_margin_1024x1024.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Costa de Café", 
+        "precio": "500.00",
+        "origen": "Costa Rica",
+        "grano": "Arábica",
+        "molienda": "Cafetera",
+        "descripcion": "Es la mezcal mas atractiva para comenzar el dia con energia y el crear el mejor momento",
+        "categoria": "Oficina",
+        "imagen": "PoM_Relief_Big_93e774f7-f5fd-4ebb-9715-cc0809d390ea_1024x1024.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Café Cacao", 
+        "precio": "480.00",
+        "origen": "Brasil",
+        "grano": "Arábica",
+        "molienda": "Cafetera",
+        "descripcion": "Trazas de almendras y cacao. Ideal para el atardecer y ambientar buenos momentos",
+        "categoria": "Oficina",
+        "imagen": "PoM_ReliefBlend_Isolated_1024x1024.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Miranda Café 500gr", 
+        "precio": "860.00",
+        "origen": "Guatemala",
+        "grano": "Arábica",
+        "molienda": "Cafetera",
+        "descripcion": "Con trazas de caramelo con puntos amargos y chocolate",
+        "categoria": "Oficina",
+        "imagen": "POM-Bundle-subscription-book_1024x1024.jpg"
+    }
+    
+]

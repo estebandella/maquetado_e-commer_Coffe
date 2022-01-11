@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--EL SEGUNDO PARAMETRO ES UN OBJETO, CON UNA PROPIEDAD POR CADA VARIABLE (QEU VOY A USAR DENTRO DEL EJS)-->
+<%- include('./partials/head', {titulo:'Home', stylesFile:'style.css'}) %>
+
+<body>
+
+    <!-- Header -->
+    <%- include('./partials/header', {hayvideo:'video'}) %>
+
+    <div class="contendor_body"> 
+
+        <!-- COMENTARIOS DE CLIENTES ELOGIOS -->
+        <div class="separador">
+            <h2>NUESTROS CAFES</h2> <br>
+            <p>Te invitamos a experimentar el café de Puerto de Mockha.</p>
+        </div>
+
+        <!-- FILTRO -->
+        <section class="filtro">
+
+            <!-- <div class="lineaFilter"></div> -->
+
+            <div class="filtro-mat-cat-color">
+                <select class="filtro_seleccion" name="Material">
+                    <option value="#/" selected> Origen </option>
+                    <option value="#/"> Puerto de Mockha </option>
+                    <option value="#/"> Etiopía </option>
+                    <option value="#/"> Brasil </option>
+                    <option value="#/"> Colombia </option>
+                    <option value="#/"> Costa Rica </option>
+                    <option value="#/"> Guatemala </option>
+                </select>
+
+                <select class="filtro_seleccion" name="Categoria">
+                    <option value="#/" selected> Granos </option>
+                    <option value="#/"> Arábica </option>
+                    <option value="#/"> Robusta </option>
+                    <option value="#/"> Kopi Luwak </option>
+                </select>
+
+                <select class="filtro_seleccion" name="Color">
+                    <option value="#/" selected> Molienda </option>
+                    <option value="#/"> Cezve Turko </option>
+                    <option value="#/"> Expresso </option>
+                    <option value="#/"> Moka Pot </option>
+                    <option value="#/"> Cafetera </option>
+                    <option value="#/"> Chemex </option>
+                    <option value="#/"> Prensa Francesa </option>
+                </select>
+            </div>
+
+        </section>
+
+        <!-- ARTICULOS -->
+
+        <section class="article_list">
+            
+            <% products.slice(0,6).forEach( (product) => { %>
+                <article class="contenedor_articulos">
+                    <a href="/products/<%= product.id%>"><img src="img/<%= product.imagen %>" alt="<%= product.nombre %>"></a>
+                    <div class="bloque_articulos">
+                        <p class="articulo-titulo"><%= product.nombre %></p>
+                        <p class="articulo-precio"><%= product.precio %></p>
+                    </div>
+                </article>
+            <% }); %>
+            
+        </section>
+
+        <div class="filtro-mat-cat-color">
+            <a class="filtro_seleccion"  href="">COMPRAR</a>
+        </div>
+
+        <!-- HISTORIAS DE PARES-->
+
+        <section class="contenedor_prefooter">
+
+            <div class="separador"> </div>
+        
+            <div class="contenedor_historia">
+                <img id="imagen_historia" src="/img/ref04.jpg">
+        
+                <div class="contenedor_texto_historias_index">
+                    <div class="texto_historias"> La pasión y dedicación de Mockha es consistente en el sabor y aromas que se trasladan a un café con trazas frutales y chocolate crujiente, nada más que placer al alcance en un pocillo de café. </div>
+                    <a class="boton_video"  href="">HISTORIA</a>
+                </div>  
+            </div>
+        
+            <div class="separador"> </div>
+        
+        </section>
+
+
+        <!-- ELOGIOS , NOTAS Y PUBLICACIONES -->
+
+        <section class="elogiosHome">
+            <p>"Después de los primeros tres sorbos, estaba 100% seguro de que era el mejor café que había probado en mi vida".</p>
+            <a class="elogio_logo" href="/"><img src="/img/INFOBAE-LOGO.png" width="150px"></a>
+        </section>
+
+        <!-- SECCION PARA SUSCRIBIRCE -->
+
+        <form class="suscribete">
+            <!-- TITULO DE SECCION -- -->
+            <div class="suscribete-titulo">
+                <h1>Suscribete a nuestro newsletter</h1>
+            </div>
+            <input type="email" id="mail" name="emaiUsuario" placeholder="ingresa tu e-mail" required minlength="3"
+                maxlength="8">
+        </form>
+
+        <!-- FOOTER -->
+
+        <%- include('./partials/footer') %>
+    </div>
+
+
+
+    
+
+</body>
+
+</html>
